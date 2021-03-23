@@ -3,7 +3,7 @@ class Question{
     constructor(){
         this.title=createElement('h1')
         this.input1=createInput("Enter Your Name Here....");
-        this.input2=createButton("Enter Correct option No..");
+        this.input2=createInput("Enter Correct option No..");
         this.button= createButton("Submit");
         this.question=createElement('h3');
         this.option1= createElement('h4');
@@ -35,7 +35,7 @@ class Question{
         this.option4.position(150,160);
 
         this.input1.position(150,230);
-        this.input2.position(350.230);
+        this.input2.position(350,230);
         this.button.position(290,300);
 
         this.button.mousepressed(()=>{
