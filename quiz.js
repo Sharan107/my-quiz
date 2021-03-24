@@ -41,7 +41,7 @@ class Quiz{
             var display_Answers=230;
             fill("blue");
             textSize(20);
-            text("Note: Contestant who answered correct arer hihglighted in green color!",130,230);
+            text("Note: Contestant who answered correct are hihglighted in green color!",130,230);
 
             for(var plr in allContestants){
                 debugger;

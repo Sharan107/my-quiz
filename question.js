@@ -38,7 +38,7 @@ class Question{
         this.input2.position(350,230);
         this.button.position(290,300);
 
-        this.button.mousepressed(()=>{
+        this.button.mousePressed(()=>{
             this.title.hide();
             this.input1.hide();
             this.input2.hide();
